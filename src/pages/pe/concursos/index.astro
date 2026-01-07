@@ -1,0 +1,76 @@
+---
+import Layout from "@layouts/Layout.astro";
+import AdPlaceholder from "@/components/AdPlaceholder.astro";
+---
+
+<Layout>
+  <main>
+    <h1>Concursos em Pernambuco</h1>
+
+    <!-- 📢 Anúncio -->
+    <AdPlaceholder />
+
+    <section>
+      <h2>Nível Superior</h2>
+      <ul>
+        <li><a href="/pe/concursos/nivel-superior/educacao">Educação</a></li>
+        <li><a href="/pe/concursos/nivel-superior/saude">Saúde</a></li>
+        <li><a href="/pe/concursos/nivel-superior/direito">Direito</a></li>
+        <li><a href="/pe/concursos/nivel-superior/qualquer-nivel-superior">Qualquer nível superior</a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Nível Médio</h2>
+      <ul>
+        <li><span>Administrativo (em breve)</span></li>
+        <li><span>Educação (em breve)</span></li>
+        <li><span>Segurança (em breve)</span></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Nível Fundamental</h2>
+      <ul>
+        <li><span>Operacional (em breve)</span></li>
+        <li><span>Serviços gerais (em breve)</span></li>
+      </ul>
+    </section>
+
+    <!-- 📢 Anúncio -->
+    <AdPlaceholder />
+
+    <section>
+    <h2>Concursos abertos em Pernambuco</h2>
+
+    <table>
+        <thead>
+        <tr>
+            <th>Concurso / Órgão</th>
+            <th>Cargo</th>
+            <th>Nível</th>
+            <th>Cidade</th>
+            <th>Inscrições até</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>
+            <a href="/pe/concursos/nivel-superior/educacao/professor-portugues-marinha-olinda/2025-edital-1-dpm">
+                Marinha do Brasil
+            </a>
+            </td>
+            <td>Professor de Língua Portuguesa</td>
+            <td>Superior</td>
+            <td>Olinda</td>
+            <td>25/01/2026</td>
+        </tr>
+        </tbody>
+    </table>
+    </section>
+
+    <nav>
+      <a href="/pe">← Voltar para Pernambuco</a>
+    </nav>
+  </main>
+</Layout>

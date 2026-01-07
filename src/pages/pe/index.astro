@@ -1,0 +1,33 @@
+---
+import Layout from "@layouts/Layout.astro";
+import AdPlaceholder from "@/components/AdPlaceholder.astro";
+---
+
+<Layout>
+  <main>
+    <h1>Pernambuco</h1>
+
+    <p>
+      Oportunidades educacionais, acadêmicas e concursos públicos
+      no estado de Pernambuco.
+    </p>
+
+    <!-- 📢 Anúncio -->
+    <AdPlaceholder />
+
+    <ul>
+      <li>
+        <a href="/pe/concursos">
+          Concursos públicos
+        </a>
+      </li>
+    </ul>
+
+    <!-- 📢 Anúncio -->
+    <AdPlaceholder />
+
+    <nav>
+      <a href="/">← Página inicial</a>
+    </nav>
+  </main>
+</Layout>

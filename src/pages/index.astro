@@ -1,11 +1,37 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+import Layout from "@layouts/Layout.astro";
 ---
 
 <Layout>
-	<Welcome />
+  <main>
+    <h1>Inovidades — Radar de oportunidades, editais e concursos</h1>
+
+    <p>
+      O <strong>Inovidades</strong> é um portal experimental que organiza oportunidades
+      educacionais, acadêmicas e profissionais de forma simples e acessível.
+    </p>
+
+    <p>
+      Aqui você encontra <strong>editais, concursos, provas e oportunidades de inovação</strong>
+      organizados por <strong>estado</strong> e <strong>segmento</strong>, facilitando o
+      acompanhamento e a busca por informações relevantes.
+    </p>
+
+    <section>
+      <h2>Pernambuco</h2>
+      <ul>
+        <li>
+          <a href="/pe">
+          Pernambuco
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <footer>
+      <p>
+        Projeto experimental. Informações públicas organizadas para fins informativos.
+      </p>
+    </footer>
+  </main>
 </Layout>
