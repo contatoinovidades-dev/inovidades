@@ -1,0 +1,70 @@
+---
+import Layout from "@layouts/Layout.astro";
+import AdPlaceholder from "@/components/AdPlaceholder.astro";
+---
+
+<Layout>
+  <main>
+    <h1>Mestrados em Pernambuco</h1>
+
+    <p>
+      Lista de programas de <strong>mestrado</strong> com processos seletivos
+      em Pernambuco, organizados para fins informativos.
+    </p>
+
+    <!-- 📢 Anúncio -->
+    <AdPlaceholder />
+
+    <section>
+      <h2>Programas com seleção em andamento</h2>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Programa</th>
+            <th>Instituição</th>
+            <th>Cidade</th>
+            <th>Inscrições até</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <a href="/pe/pos-graduacoes/mestrado/ufpe/gestao-publica/2025-02">
+                Mestrado Profissional em Gestão Pública
+              </a>
+            </td>
+            <td>UFPE</td>
+            <td>Recife</td>
+            <td>19/05/2026</td>
+          </tr>
+           <!-- Engenharia de Produção -->
+          <tr>
+            <td>
+              <a href="/pe/pos-graduacoes/mestrado/ufpe/engenharia-producao-profissional/turma-i-patrocinadores">
+                Engenharia de Produção — Turma I (Patrocinadores)
+              </a>
+            </td>
+            <td>UFPE</td>
+            <td>Recife</td>
+            <td>29/01/2026</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- 📢 Anúncio -->
+    <AdPlaceholder />
+
+    <nav>
+      <p><a href="/pe">← Voltar para Pernambuco</a></p>
+      <p><a href="/">← Página inicial</a></p>
+    </nav>
+
+    <footer>
+      <p>
+        Projeto experimental. Informações organizadas a partir de editais públicos.
+      </p>
+    </footer>
+  </main>
+</Layout>
